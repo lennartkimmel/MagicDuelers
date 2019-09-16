@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL IDENTITY (1,1) PRIMARY KEY,
+	[Name] VARCHAR(50) NOT NULL,
+	[Admin] VARCHAR(3) NOT NULL,
+	[Deck] VARCHAR(50),
+	[Statestieken] VARCHAR (50)
+)
