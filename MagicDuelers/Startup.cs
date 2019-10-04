@@ -36,11 +36,8 @@ namespace MagicDuelers
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddDbContext<MagicDuelersContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("MagicDuelersContext")));
-
-            services.AddDbContext<MvcDeckContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("MvcDeckContext")));
+            services.AddDbContext<MagicDuelersProfileContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MagicDuelersProfileContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

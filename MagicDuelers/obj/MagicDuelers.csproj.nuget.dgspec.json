@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lennart\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj": {}
+    "C:\\Users\\Lennart\\source\\repos\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lennart\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj": {
+    "C:\\Users\\Lennart\\source\\repos\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lennart\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj",
+        "projectUniqueName": "C:\\Users\\Lennart\\source\\repos\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj",
         "projectName": "MagicDuelers",
-        "projectPath": "C:\\Users\\Lennart\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj",
+        "projectPath": "C:\\Users\\Lennart\\source\\repos\\MagicDuelers\\MagicDuelers\\MagicDuelers.csproj",
         "packagesPath": "C:\\Users\\Lennart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lennart\\MagicDuelers\\MagicDuelers\\obj\\",
+        "outputPath": "C:\\Users\\Lennart\\source\\repos\\MagicDuelers\\MagicDuelers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -53,10 +53,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.2.6, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

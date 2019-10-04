@@ -6,9 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MagicDuelers.Controllers
 {
-    public class DecksController : Controller
+    public class ProfilesController : Controller
     {
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Profiles()
         {
             return View();
         }
