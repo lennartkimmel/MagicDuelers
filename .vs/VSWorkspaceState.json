@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MagicDuelers",
+    "\\MagicDuelers\\Controllers"
   ],
+  "SelectedNode": "\\MagicDuelers\\Controllers\\HelloWorldController.cs",
   "PreviewInSolutionExplorer": false
 }
